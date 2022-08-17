@@ -16,4 +16,4 @@ console.log(+""); //0
 console.log(+"1"); //1
 console.log(+true); //1
 console.log(+"text"); // NaN
-console.log(+undefined); //
+console.log(+undefined);
