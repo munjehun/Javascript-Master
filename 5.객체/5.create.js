@@ -1,3 +1,5 @@
+// 생성자 함수 : 특정한 템플릿에 맞는 객체를 만들어주는 함수
+
 // const apple = {
 //   name: "apple",
 //   display: function () {
