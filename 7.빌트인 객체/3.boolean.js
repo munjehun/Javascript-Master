@@ -3,7 +3,8 @@ console.log(true.valueOf()); //boolean 타입도 객체타입이 있다. (valueO
 const isTrue = true;
 
 /**
- * Falshy
+ Falshy
+ 
  * 0
  * -0
  * null
@@ -13,7 +14,8 @@ const isTrue = true;
  */
 
 /**
- * Fruthy
+ Truthy
+
  * 1
  * -1
  * '0'  => 0 이라는 string이 들어가 있어서

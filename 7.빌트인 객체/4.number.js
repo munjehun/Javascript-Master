@@ -21,13 +21,14 @@ if (Number.isNaN(num1)) {
 const num3 = 103;
 console.log(num3.toExponential()); //1.03e+2 = 1.03 * 10^2
 
-// 반올림
+// 반올림 (문자열 타입)
 const num4 = 1234.12;
 console.log(num4.toFixed()); //toFixed()안에 인자로 수를 넣으면 그 수만큼 소수점 자릿수 출력.
 console.log(num4.toFixed(1));
 console.log(num4.toFixed(2));
 
-console.log(Math.round(num4)); //1234 (문자열 아니고 Number 타입)
+// 반올림 (숫자 타입)
+console.log(Math.round(num4)); //1234
 
 console.log(num4.toPrecision(6)); //1234.12
 console.log(num4.toPrecision(5)); //1234.1

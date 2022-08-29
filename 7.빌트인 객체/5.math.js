@@ -1,5 +1,5 @@
 // Math
-// static method
+// static method : class 이름만으로도 사용할 수 있는 함수 <->instance method : 객체를 만들어서 접근할 수 있는 함수
 
 // 절댓값
 console.log(Math.abs(-12));
@@ -9,7 +9,6 @@ console.log(Math.ceil(1.4));
 console.log(Math.floor(1.4));
 // 소수점 이하 반올림
 console.log(Math.round(1.4));
-console.log(Math.round(1.7));
 // 정수만 반환
 console.log(Math.trunc(1.2412));
 
