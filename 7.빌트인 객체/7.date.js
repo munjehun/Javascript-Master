@@ -1,9 +1,17 @@
 console.log(new Date()); //2022-08-29T14:35:37.669Z 현재 시간 출력
 
-//타임존 때문인지 날짜는 하루 당겨서 반환
 console.log(new Date("Jun 5, 2022")); //2022-06-04T15:00:00.000Z
 console.log(new Date("2016-3-10")); //2016-03-09T15:00:00.000Z
 console.log(new Date("2016-3-1")); //2016-02-29T15:00:00.000Z
+
+/*💯💯💯new Date 구문💯💯💯
+monthIndex = 0 ~ 11 (1월 ~ 12월)
+new Date(year, monthIndex); 
+new Date(year, monthIndex, day);
+new Date(year, monthIndex, day, hours);
+new Date(year, monthIndex, day, hours, minutes);
+new Date(year, monthIndex, day, hours, minutes, seconds);
+*/
 
 const now = new Date();
 now.setFullYear(2023); //2023년으로 설정
