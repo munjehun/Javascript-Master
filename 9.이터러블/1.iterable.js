@@ -4,7 +4,7 @@ iterable : 반복 가능한
 
 Iterable 하다는 것은 순회가 가능하다는 것!
 [Symbol.iterator]() : Iterator;
-심볼 정의를 가진 객체나, 특정한 함수가 Iterator를 리턴한다는 것은 순회 가능한 객체이다!
+ 👆 심볼 정의를 가진 객체나, 특정한 함수가 Iterator를 리턴한다는 것은 순회 가능한 객체이다!
 순회가 가능하면 for.. of, spread 를 사용할 수 있다.*/
 
 const array = [1, 2, 3];
