@@ -11,6 +11,7 @@ obj.age;
 
 // 1.전달되는 값에 따라 key값을 찾음.
 function getValue(obj, key) {
+  // return obj.key; 🚫 obj에 key라는 key값이 있지 않다면 오류 발생
   return obj[key];
 }
 console.log(getValue(obj, "name")); //제훈

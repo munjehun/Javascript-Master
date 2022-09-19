@@ -7,7 +7,7 @@ console.log(coordinate); //{ x: 0, y: 0 }
 
 function makeobj(name, age) {
   return {
-    name,
-    age,
+    name, //name : name,
+    age, //age : age,
   };
 }

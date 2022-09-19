@@ -13,6 +13,8 @@
 //   },
 // };
 
+// => 비슷한 객체인데 하나하나 만들기 귀찮다!
+
 //특정한 템플릿에 맞게 객체를 쉽게 만들어 줄 수 있는 생성자 함수를 이용하면
 //정해진 틀 안에서 원하는 객체를 만들 수 있다.
 
@@ -26,8 +28,8 @@ function Fruit(name, emoji) {
   // return this; (생략 가능)
 }
 
-const apple = new Fruit("apple", "🍎");
-const orange = new Fruit("orange", "🍊");
+const apple = new Fruit("apple", "🍎"); // this = apple
+const orange = new Fruit("orange", "🍊"); //this = orange
 
 console.log(apple); //Fruit { name: 'apple', emoji: '🍎', display: [Function (anonymous)] }
 console.log(orange); //Fruit { name: 'orange', emoji: '🍊', display: [Function (anonymous)] }
