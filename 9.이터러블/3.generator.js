@@ -1,3 +1,5 @@
+// generator : 생성기 (값을 생성할 수 있는)
+
 // const multiple = {
 //   [Symbol.iterator]() {
 //     //iterator를 실행하면
@@ -23,9 +25,12 @@ function* multipleGenerator() {
 
 const multiple = multipleGenerator();
 let next = multiple.next();
-console.log(next.value, next.done);
+console.log(next.value, next.done); //0 false
+
+next = multiple.next();
+console.log(next.value, next.done); //2 false
 
 multiple.return(); //다음으로 넘어가지 않고 끝내버림
 
 next = multiple.next();
-console.log(next.value, next.done);
+console.log(next.value, next.done); //true
