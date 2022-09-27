@@ -10,7 +10,7 @@ const set1 = new Set([1, 2, 3, 4, 5]);
 const set2 = new Set([1, 2, 3]);
 
 const set3 = new Set(set1 && set2);
-console.log(new Set(set1 && set2)); //Set(3) { 1, 2, 3 }
+console.log(set3); //Set(3) { 1, 2, 3 }
 
 function findIntersection(set1, set2) {
   const array = [...set1].filter((i) => set2.has(i));
