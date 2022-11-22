@@ -14,7 +14,7 @@ var poo = "💩";
 let pooo = "💩";
 // let pooo = "💩"; //SyntaxError: Identifier 'pooo' has already been declared
 
-// 3️⃣ 블록 레벨의 스코프 안됨
+// 3️⃣ 블록 레벨의 스코프 안됨 = for문 같은 블럭 스코프에서 변수도 전역 변수와 똑같이 사용됨
 var apple = "사과";
 {
   var apple = "🍎";
